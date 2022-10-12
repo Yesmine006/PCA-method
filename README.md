@@ -18,7 +18,7 @@ Find a linear transformation matrix P such that Y=PX and the covariance matrix o
   4. Calculate sample covariance matrix CX
   5. Calculate eigenvectors of matrix CX à obtain matrix P
   6. Apply change of base
-  End - Y is the transformed data matrix
+  End - Y is the transformed data matrix where Cy is supposed to be diagonal holding the eigenvalues of matrix X
 
 In this notebook we will be testing the PCA (Principal components) method.
 1. First we will upload the MNIST dataset which is a large collection of handwritten digits. It is a very popular dataset in the field of image processing. It is often used for benchmarking machine learning algorithms.
