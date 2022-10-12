@@ -7,6 +7,7 @@ Goal of PCA:
 This new basis should
   1) filter out noise,
   2) reveal interesting structure
+
 Solution:
 Find a linear transformation matrix P such that Y=PX and the covariance matrix of Y (CY) is a diagonal matrix. To do that we need to follow the following steps:
   1. Organize data into an m x n matrix X
